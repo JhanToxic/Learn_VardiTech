@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Іван Петренко — Front-end розробник</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">ІП</a>
+
+      <nav class="nav">
+        <a href="#about" class="nav__link">Про мене</a>
+        <a href="#skills" class="nav__link">Навички</a>
+        <a href="#projects" class="nav__link">Проєкти</a>
+        <a href="#contacts" class="nav__link">Контакти</a>
+      </nav>
+
+      <a href="#" class="btn btn--primary btn--sm">Завантажити CV</a>
+    </div>
+  </header>
+
+  <!-- Hero / About -->
+  <section class="hero" id="about">
+    <div class="container hero__inner">
+      <div class="hero__avatar">ІП</div>
+
+      <div class="hero__content">
+        <span class="badge">ВІДКРИТИЙ ДО ПРОПОЗИЦІЙ</span>
+        <h1 class="hero__name">Іван Петренко</h1>
+        <p class="hero__role">Front-end розробник · Київ</p>
+        <p class="hero__text">
+          Верстаю адаптивні сайти на HTML і CSS, розбираюся з JavaScript.
+          Люблю чистий код і макети, у які можна потрапити піксель у піксель.
+        </p>
+
+        <div class="hero__actions">
+          <a href="#contacts" class="btn btn--primary">Написати мені</a>
+          <a href="#" class="btn btn--outline">Мій GitHub</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Навички</h2>
+      <p class="section-subtitle">Те, чим користуюся щодня</p>
+
+      <ul class="tags">
+        <li class="tag">HTML5</li>
+        <li class="tag">CSS3</li>
+        <li class="tag">Flexbox</li>
+        <li class="tag">CSS Grid</li>
+        <li class="tag">Адаптивна верстка</li>
+        <li class="tag">Git</li>
+        <li class="tag">Figma</li>
+        <li class="tag">JavaScript</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="experience">
+    <div class="container">
+      <h2 class="section-title">Досвід</h2>
+      <p class="section-subtitle">Коротко про шлях</p>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__date">2026 — зараз</div>
+          <div class="timeline__body">
+            <h3 class="timeline__title">Front-end розробник</h3>
+            <p class="timeline__place">Фріланс</p>
+            <p class="timeline__desc">
+              Верстка лендінгів по макетах з Figma. Адаптив від 375px, кросбраузерність, базова оптимізація зображень.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <div class="timeline__date">2025 — 2026</div>
+          <div class="timeline__body">
+            <h3 class="timeline__title">Навчання веб-розробці</h3>
+            <p class="timeline__place">Самостійно та з ментором</p>
+            <p class="timeline__desc">
+              HTML, CSS, основи JavaScript. Понад двадцять зверстаних сторінок, щоденні комміти в GitHub.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <h2 class="section-title">Проєкти</h2>
+      <p class="section-subtitle">Три роботи, якими пишаюся</p>
+
+      <div class="cards">
+        <article class="card">
+          <div class="card__cover card__cover--blue"></div>
+          <div class="card__body">
+            <h3 class="card__title">Лендінг кав'ярні</h3>
+            <p class="card__desc">Односторінковий сайт із меню та формою бронювання столика.</p>
+            <ul class="tags tags--sm">
+              <li class="tag">HTML</li>
+              <li class="tag">CSS</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__cover card__cover--peach"></div>
+          <div class="card__body">
+            <h3 class="card__title">Каталог книг</h3>
+            <p class="card__desc">Сітка карток з фільтром по жанрах і адаптивом до 375px.</p>
+            <ul class="tags tags--sm">
+              <li class="tag">Grid</li>
+              <li class="tag">JS</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card__cover card__cover--mint"></div>
+          <div class="card__body">
+            <h3 class="card__title">Сторінка-візитка</h3>
+            <p class="card__desc">Персональне резюме з темною темою та плавними переходами.</p>
+            <ul class="tags tags--sm">
+              <li class="tag">Flexbox</li>
+              <li class="tag">CSS</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contacts">
+    <div class="container">
+      <h2 class="footer__title">Контакти</h2>
+      <p class="footer__subtitle">Відповідаю протягом дня</p>
+
+      <div class="footer__links">
+        <a href="mailto:ivan@example.com" class="footer__link">ivan@example.com</a>
+        <a href="#" class="footer__link">Telegram</a>
+        <a href="#" class="footer__link">GitHub</a>
+        <a href="#" class="footer__link">LinkedIn</a>
+      </div>
+
+      <hr class="footer__divider">
+
+      <p class="footer__copy">© 2026 Іван Петренко. Макет для навчального завдання.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

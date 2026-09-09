@@ -1,0 +1,57 @@
+.hero {
+  padding: 64px 0;
+}
+
+.hero__inner {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.hero__avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: $color-accent;
+  color: $color-white;
+  font-weight: 800;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.hero__name {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+
+.hero__role {
+  font-size: 16px;
+  color: $color-text-gray;
+  margin-bottom: 16px;
+}
+
+.hero__text {
+  max-width: 560px;
+  color: $color-text;
+  margin-bottom: 24px;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+
+  @media (max-width: 640px) {
+    justify-content: center;
+  }
+}

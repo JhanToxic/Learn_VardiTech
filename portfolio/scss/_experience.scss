@@ -1,0 +1,47 @@
+.experience {
+  padding: 64px 0;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.timeline__item {
+  display: flex;
+  gap: 32px;
+  padding: 24px;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+
+  @media (max-width: 640px) {
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.timeline__date {
+  flex: 0 0 140px;
+  color: $color-text-gray;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.timeline__title {
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+
+.timeline__place {
+  color: $color-accent;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.timeline__desc {
+  color: $color-text;
+  font-size: 15px;
+}

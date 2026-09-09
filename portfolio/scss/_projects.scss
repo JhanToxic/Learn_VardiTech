@@ -1,0 +1,57 @@
+.projects {
+  background: $color-bg-section;
+  padding: 64px 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 640px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  background: $color-white;
+  border: 1px solid $color-border;
+  border-radius: $radius-md;
+  overflow: hidden;
+}
+
+.card__cover {
+  height: 140px;
+
+  &--blue {
+    background: $color-accent-light;
+  }
+
+  &--peach {
+    background: $color-card-peach;
+  }
+
+  &--mint {
+    background: $color-card-mint;
+  }
+}
+
+.card__body {
+  padding: 20px;
+}
+
+.card__title {
+  font-size: 17px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.card__desc {
+  font-size: 14px;
+  color: $color-text-gray;
+  margin-bottom: 16px;
+}

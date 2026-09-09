@@ -1,0 +1,28 @@
+// Кольори
+$color-text: #16181D; // Основний текст, логотип, футер
+$color-text-gray: #6B7280; // Сірий текст, підзаголовки, теги
+$color-accent: #2B50E8; // Акцент: кнопки, аватар, посилання
+$color-accent-hover: #1E3DC4; // Акцент при наведенні
+$color-accent-light: #E7EBFD; // Світлий акцент: плашка, перша картка
+
+$color-bg-section: #F2F3F0; // Фон світло-сірої секції, теги
+$color-border: #E3E5E1; // Усі рамки
+$color-white: #FFFFFF; // Основний фон і фон карток
+
+$color-card-peach: #FCEBD8; // Обкладинка другої картки
+$color-card-mint: #DDF0E6; // Обкладинка третьої картки
+
+$color-footer-bg: $color-text;
+$color-footer-text-gray: #9CA3AF; // Сірий текст у футері
+$color-footer-border: #3A3D46; // Рамки контактів у футері
+$color-footer-line: #2A2D35; // Лінія над копірайтом
+
+// Шрифт
+$font-main: 'Manrope', sans-serif;
+
+// Розміри
+$container-width: 1120px;
+$radius-sm: 8px;
+$radius-md: 12px;
+$radius-lg: 16px;
+$radius-full: 999px;

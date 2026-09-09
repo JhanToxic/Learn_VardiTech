@@ -1,0 +1,46 @@
+.header {
+  border-bottom: 1px solid $color-border;
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  height: 72px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  border-radius: $radius-sm;
+  background: $color-text;
+  color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+  flex: 1;
+  justify-content: center;
+
+  @media (max-width: 720px) {
+    display: none;
+  }
+}
+
+.nav__link {
+  font-size: 15px;
+  font-weight: 600;
+  color: $color-text;
+
+  &:hover {
+    color: $color-accent;
+  }
+}
